@@ -2,36 +2,36 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.ownernomer = "919931122319"
-global.ownername = "Ayush pandey"
-global.ytname = "YT: AyushBotz.inc"
-global.socialm = "GitHub: Ayushpandey023"
-global.location = "Indian"
+global.ownernomer = "6285939391878"
+global.ownername = "DVinz"
+global.ytname = "YT: Rull.DVinz"
+global.socialm = "GitHub: Rull.DVinz"
+global.location = "Indonesia"
 
-global.ownernumber = '919931122319'  //creator number
-global.ownername = 'Ayush' //owner name
-global.botname = '𝐌𝐀𝐑𝐈𝐀-𝐌𝐃' //name of the bot
+global.ownernumber = '6285939391878'  //creator number
+global.ownername = 'DVinz' //owner name
+global.botname = 'Wardaa-BOT' //name of the bot
 
 //sticker details
 global.stickername = '💙𓆩‎✘AʏᴜSʜ✘𓆪_✰'
-global.packname = 'Sticker By'
-global.author = 'Maria Bot'
+global.packname = 'Sticker By Wardaa-BOT'
+global.author = 'Wardaa Bot'
 //console view/theme
 global.themeemoji = '🧩'
-global.wm = "Ayush botz inc."
+global.wm = "DVinz botz inc."
 
 //theme link
-global.link = '' // if you want to send bot reply with group link then put your link here 🌿 
+global.link = 'https://chat.whatsapp.com/DxhYhOlK63X7jMz4ZjLi1z' // if you want to send bot reply with group link then put your link here 🌿 
 global.support = 'https://chat.whatsapp.com/DYp7FwfL9xsKURihcdT0l8'
 //custom prefix
 global.prefa = ['.'] //put here your fav prefix like +×÷= etc.
 
 //false=disable and true=enable
 global.autoRecording = false //auto recording
-global.autoTyping = false //auto typing
+global.autoTyping = true //auto typing
 global.autorecordtype = false //auto typing + recording
 global.autoread = true //auto read messages
-global.autobio = false //auto update bio
+global.autobio = true //auto update bio
 global.anti92 = true //auto block +92 
 global.autoread_status = true //auto view status/story
 
@@ -51,7 +51,7 @@ global.mess = {
     error: 'Error!',
 }
 
-global.thumb = fs.readFileSync('./Gallery/thumb.jpg')
+global.thumb = fs.readFileSync('https://i.imgur.com/rgYgCzZ.png')
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
